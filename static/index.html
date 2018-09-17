@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.1.1/socket.io.js"></script>
+  <script
+        src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <h5>Test chat app</h5>
+<p>Logged in as <b><span id="currentUser">Testowy user</span></b><br/>New name: <input id="newUserInput"/><button id="newUserSubmit">Submit</button></p>
+<div id="chatWindow">
+  <div id="chatArea">
+
+
+  </div>
+  <form id="formArea">
+    <input type="text" id="messageValue"></input><button id="sendMsg">Send</button>
+  </div>
+</div>
+
+
+<script src="/index.js"></script>
+</body>
+</html>
